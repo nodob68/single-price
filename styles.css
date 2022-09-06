@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    background: white;
+    border-radius: 10px;
+    max-width: 650px;
+    box-shadow: -1px 5px 19px 5px rgba(232,223,223,0.75);
+}
+
+.box1{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box2{
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.box3{
+    background-color: hsl(179, 48%, 49%);
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text1{
+    color:hsl(179, 62%, 43%); ;
+}
+.text2{
+    color:hsl(71, 73%, 54%);
+}
+.text3{
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+    line-height: 25px;
+}
+h2,h3{
+    color:white;
+}
+
+h3{
+    font-size: 16px;
+}
+
+button{
+
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        width: 80%;
+        background-color: hsl(71, 73%, 54%); 
+        border-radius: 8px;
+        height: 45px;
+        color: white;
+        border: none;
+        margin-left:30px;
+      
+}
+
+.dollar{
+    color: white;
+    font-size: 25px;
+    opacity: 20;
+}
+
+.span2,h4{
+    color: hsl(204, 43%, 93%);
+    font-size: 15px;
+}
