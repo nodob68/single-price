@@ -4,22 +4,25 @@ body{
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 
 .container{
-    position: absolute;
-    left: 25%;
-    top: 10%;
     background: white;
     border-radius: 10px;
     max-width: 650px;
     box-shadow: -1px 5px 19px 5px rgba(232,223,223,0.75);
+
 }
 
 .box1{
     background-color: white;
     padding: 20px;
-    margin: 20px;
+
 } 
 
 .box2{
@@ -67,13 +70,12 @@ button{
         display: block;
         text-align: center;
         font-weight: 600;
-        width: 80%;
+        width: 100%;
         background-color: hsl(71, 73%, 54%); 
-        border-radius: 8px;
+        border-radius: 6px;
         height: 45px;
         color: white;
         border: none;
-        margin-left:30px;
       
 }
 
